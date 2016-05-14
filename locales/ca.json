@@ -29,6 +29,10 @@
         "title": "Términos legales",
         "contact": "contacto"
     },
+    "legalNotice": {
+      "title": "Avís legal sobre la votació amb Agora Voting",
+      "body": "El  vot és secret. Cada vot s'enregistra de forma anònima per mitjà d'un sistema encriptat que només permet controlar, a través d'un codi  aleatori, el desenvolupament de la votació i l'escrutini. El sistema només controla si una persona ha votat per mitjà d'una credencial anònima, per tal d'evitar duplicitat de vots, però el seu sentit roman secret, així com roman anònima la identitat de la persona votant. En  conseqüència, aquest sistema de votació no comporta cap tractament de dades personals per part d'Agora Voting ni una cessió de dades personals a tercers, atès que les dades de la votació que es transmeten per a l'escrutini resten dissociades de la identitat de les persones  votants."
+    },
     "thisisATest": "<span class=\"glyphicon glyphicon-info-sign\" aria-hidden=\"true\"></span> <strong>Warning!</strong> This is a TEST election",
     "loadingElectionTitle": "Carregant la votació, un moment sisplau..",
     "stepNumber": "paso __num__ de __total__ &nbsp; &nbsp; funciona amb <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>",

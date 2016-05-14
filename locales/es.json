@@ -31,6 +31,10 @@
         "title": "Términos legales",
         "contact": "contacto"
     },
+    "legalNotice": {
+      "title": "Aviso legal sobre la votación a través de Agora Voting",
+      "body": "El voto es secreto. Cada voto se registra de forma anónima mediante un   sistema cifrado que permite únicamente controlar, a través de un código   aleatorio, el desarrollo de la votación y el escrutinio. El sistema controla únicamente si una persona ha votado o no mediante una credencial  anónima, para evitar duplicidad de votos, pero mantiene secreto el sentido del mismo y anónima la identidad de la persona votante. En consecuencia,  este sistema de votación no conlleva un tratamiento de datos personales por parte de Agora Voting ni una cesión de datos personales a terceros, puesto que los datos de la votación que se transmiten para el escrutinio  permanecen disociados de la identidad de las personas votantes."
+    },
     "thisisATest": "<span class=\"glyphicon glyphicon-info-sign\" aria-hidden=\"true\"></span> <strong>¡Atención!</strong> Esto es una votación de PRUEBA",
     "loadingElectionTitle": "Cargando votación, un momento por favor..",
     "stepNumber": "paso __num__ de __total__ &nbsp; &nbsp; funciona con <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>",
