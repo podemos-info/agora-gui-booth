@@ -203,7 +203,6 @@ module.exports = function (grunt) {
         options: {
           remove: ['script[data-remove!="false"]','link[data-remove!="false"]'],
           append: [
-            {selector:'body',html:'<%= variables.booth_html_body_include %>'},
             {selector:'body',html:'<!--[if lte IE 8]><script src="/booth/libcompat-v3.0.1.min.js"></script><![endif]--><!--[if gte IE 9]><script src="/booth/libnocompat-v3.0.1.min.js"></script><![endif]--><!--[if !IE]><!--><script src="/booth/libnocompat-v3.0.1.min.js"></script><!--<![endif]-->'},
             {selector:'body',html:'<!--All the source code of this program under copyright. Take a look at the license details at https://github.com/agoravoting/agora-core-view/blob/master/README.md -->'},
             {selector:'body',html:'<script src="/booth/lib-v3.0.1.min.js"></script>'},
@@ -211,6 +210,7 @@ module.exports = function (grunt) {
             {selector:'body',html:'<script src="/booth/avThemes-v3.0.1.js"></script>'},
             {selector:'body',html:'<script src="/booth/app-v3.0.1.min.js"></script>'},
             {selector:'body',html:'<script src="/booth/avPlugins-v3.0.1.js"></script>'},
+            {selector:'body',html:'<%= variables.booth_html_body_include %>'},
             {selector:'head',html:'<link rel="stylesheet" id="theme" data-base="/booth/" href="/booth/themes/default/app.min.css">'}
           ]
         },
