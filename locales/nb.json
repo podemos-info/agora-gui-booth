@@ -33,8 +33,8 @@
     },
     "thisisATest": "<span class=\"glyphicon glyphicon-info-sign\" aria-hidden=\"true\"></span> <strong>Advarsel!</strong> Dette er et TESTvalg",
     "loadingElectionTitle": "Laster valg, vennligst vent..",
-    "stepNumber": "trinn __num__ of __total__ &nbsp; &nbsp; powered by <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>",
-    "stepAndQuestionNumber": "trinn __num__ of __total__, question __qnum__ of __qtotal__",
+    "stepNumber": "Trinn __num__ of __total__ &nbsp; &nbsp; powered by <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>",
+    "stepAndQuestionNumber": "Trinn __num__ of __total__, question __qnum__ of __qtotal__",
     "continueButton": "Fortsett",
     "startVoting": "Start stemmegiving",
     "stepsToVote": "Du må følge disse trinnene for å avgi din stemme:",
@@ -42,7 +42,7 @@
     "selectOptionsText": "Svar på spørsmålene et og et som de blir vist. Resultatet vil bli vist på stemmeseddelen din.",
     "reviewOptionsTitle": "2. Se gjennom stemmeseddelen din",
     "reviewOptionsText": "Når du har valgt alternativene dine krypterer vi stemmeseddelen og du vil bli gitt en ID som kan brukes for å kontrollere at din stemme er en bit av det endelige resultatet. Du vil også få se en oppsummering av stemmen din.",
-    "emitBallotTitle": "3. Avgi din stemme",
+    "emitBallotTitle": "3. Til slutt avlegger du stemmen din. Du får også muligheten til å kontrollere at stemmeseddelen er korrekt kryptert.",
     "emitBallotText": "Du kan avlegge stemmen din, alternativt kan du sjekke at den er korrekt kryptert.",
     "errorTitle": "Oops. Noe uventet skjedde",
     "errorHtml": "<p>De følgende problemet oppstod (identifier __errorId__): </p><p>__error__</p><p> Hvis du trenger å kontakte oss kan du sende en e-post til <a href=\"mailto:__email__\" target=\"_blank\">__email__</a>.</p>",
@@ -60,16 +60,16 @@
     "couldntSendBallotNotFound":  "Kunne ikke avgi stemmen. Det kan være et problem med tilkoblingene eller servere er kanskje midlertidig utilgjengelig. Vennligst forsøk igjen litt senere og dersom problemet ikke har løst seg, ta kontakt med oss.",
 
 
-    "questionSelectedOptionsTitle": "valgte alternativer (__count__)",
-    "questionSelectedOptionsTitle_plural": "valgte alternativer (__count__)",
-    "questionSelectedOptionsTitleOrdered": "valgte alternativer (__count__) i rekkefølge, drag and drop for å endre rekkefølge",
-    "questionSelectedOptionsTitleOrdered_plural": "valgte alternativer (__count__) i rekkefølge, drag and drop for å endre rekkefølge",
-    "questionAvailableOptionsTitle": "tilgjengelige alternativer",
+    "questionSelectedOptionsTitle": "Valgte alternativer (__count__)",
+    "questionSelectedOptionsTitle_plural": "Valgte alternativer (__count__)",
+    "questionSelectedOptionsTitleOrdered": "Valgte alternativer (__count__) i rekkefølge, drag and drop for å endre rekkefølge",
+    "questionSelectedOptionsTitleOrdered_plural": "Valgte alternativer (__count__) i rekkefølge, drag and drop for å endre rekkefølge",
+    "questionAvailableOptionsTitle": "Tilgjengelige alternativer",
     "numOptionsSelected": "__count__ alternativer valgt.",
     "numOptionsSelected_plural": "__count__ alternativer valgt.",
     "numOptionsSelected_plural_2": "__count__ alternativer valgt.",
     "noOptionsSelected": "Ingen alternativer valgt.",
-    "numOptionsLimits": "Velg mellom __min__ and __max__ alternativer.",
+    "numOptionsLimits": "Velg mellom __min__ og __max__ alternativer.",
     "filterOptionsPlaceholder": "filter..",
     "noResults": "ingen resultater funner..",
     "numSelectedOptionsSmall": "__count__ valgt",
@@ -136,7 +136,7 @@
     "totalsQuestionColumn": "(__selected__ of __count__ selected)",
 
     "reviewBallotHashText": "SporingsID for din stemmeseddel er: <strong>__ballotHash__</strong>",
-    "auditTheBallot": "Kontroller stemmeseddel",
+    "auditTheBallot": "Teknisk krypteringskontroll",
 
     "auditBallotTitle": "Kontroller din stemmeseddel",
     "auditBallotSubtitle": "",
@@ -145,7 +145,7 @@
 
 
     "thisisADemoNotification": "<span class=\"glyphicon glyphicon-info-sign\" aria-hidden=\"true\"></span> <strong>Avarsel!</strong> Demo stemmebås, stemmer avgitt fra denne båsen vil ikke være tellende.",
-    "successBallotHash": "Gratulerer! Du har avgitt stemme med <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>. SporingsIDen til din stemmeseddel er:<br/><br/></h3><p> <strong>__ballotHash__</strong><br/><br/>Du kan bruke din sporingsID for å <a href=\"__ballotLocatorUrl__\" target=\"_blank\">bekrefte at din stemmeseddel har blitt avgitt riktig</a>. Så lenge votering pågår kan du stemme på nytt og overstyre og ugyldiggjøre alle tidligere stemmesedler.",
+    "successBallotHash": "Gratulerer! Du har avgitt stemme med <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>. Du kan nå trygt lukke denne siden. SporingsIDen til din stemmeseddel er:<br/><br/></h3><p> <strong>__ballotHash__</strong><br/><br/>Du kan bruke din sporingsID for å <a href=\"__ballotLocatorUrl__\" target=\"_blank\">bekrefte at din stemmeseddel har blitt avgitt riktig</a>. Så lenge votering pågår kan du stemme på nytt og overstyre og ugyldiggjøre alle tidligere stemmesedler.",
     "relatedLinksText": "For mer informasjon om dette valget:",
 
     "circleOptionExternalLink": "Vis detaljer",
