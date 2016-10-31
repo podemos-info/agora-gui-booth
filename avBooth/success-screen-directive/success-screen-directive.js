@@ -30,7 +30,7 @@ angular.module('avBooth')
         scope.organization = ConfigService.organization;
         scope.election.presentation.tweetLinks = [
           {
-            share_text: "Acabo de votar qué @PodemosCMadrid quiero. Tú también puedes hacerlo en https://participa.podemos.info #AsambleaCiudadanaCM",
+            share_text: scope.election.presentation.share_text[0].social_message,
             link_text: $i18next("avCommon.shareLink")
           }
         ];

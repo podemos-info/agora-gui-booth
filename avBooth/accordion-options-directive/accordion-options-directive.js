@@ -35,11 +35,17 @@ angular.module('avBooth')
       // convert this associative array to a list of objects with title and
       // options attributes
       // TODO FIXME HACK Enable category level shuffling as requested for election #75
+      var shuffle_cats = false;
+      if (angular.isDefined(scope.question.extra_options) &&
+          angular.isDefined(scope.question.extra_options.shuffled_categories)) {
+        shuffle_cats = true;
+      }
       scope.categories = _.shuffle(_.map(_.pairs(categories), function(pair) {
         var i = -1;
         var title = pair[0];
         var answers = pair[1];
-        if (scope.question.extra_options.shuffled_categories === title) {
+        if (shuffle_cats && -1 !== title.toLowerCase().indexOf(
+              scope.question.extra_options.shuffled_categories.toLowerCase().trim() ) ) {
           answers = _.shuffle(answers);
         }
 
