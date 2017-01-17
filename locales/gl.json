@@ -44,7 +44,7 @@
     "loadingElectionTitle": "Cargando votación, un momento por favor..",
     "stepNumber": "paso __num__ de __total__",
     "stepAndQuestionNumber": "paso __num__ de __total__, pregunta __qnum__ de __qtotal__",
-    "startVoting": "Empezar a votar",
+    "startVoting": "Comezar a votar",
     "continueButton": "Continuar",
     "stepsToVote": "Seguirás estes pasos ao emitir o teu voto:",
     "selectOptionsTitle": "1. Selecciona as túas candidaturas",
@@ -99,13 +99,13 @@
     "helpTitle": "Axuda",
     "helpText": "",
     "goBack": "Voltar á cabina",
-    "selectedOptionsFollow": "As __num__ candidaturas que seleccionaches son:",
+    "selectedOptionsFollow": " A lista que seccionaches é:",
     "selectedOptionFollow": "A opción que seleccionaches é:",
 
     "errorElectionUrl": "O enderezo introducido ten un formato erróneo",
     "reviewYourBallotTitle": "Falta enviar a papeleta: revísaa primeiro",
     "reviewYourBallotText": "Antes de emitir o teu voto, por favor revisa o contido da túa papeleta",
-    "castTheBallot": "Enviar el voto",
+    "castTheBallot": "Enviar o voto",
     "changeAnswerToQuestion": "cambiar",
     "emptyAnswer": "<voto en branco>",
 
@@ -183,7 +183,7 @@
     "busy": {
       "title": "O seu voto será...",
       "encryptedTitle": "cifrado",
-      "encryptedDescription": "de xeito que ninguén pode saber que as opcións que escolla",
+      "encryptedDescription": "de xeito que ninguén poda saber as opcións da sua escolla",
       "castTitle": "emitido",
       "castDescription": "usando unha canle segura e comprobar a súa identidade",
       "anonymizedTitle": "anonimizado",
