@@ -435,6 +435,7 @@ angular.module('avBooth')
               scope.ballotClearText = _.map(
                 scope.election.questions, function () { return []; });
               scope.setState(stateEnum.startScreen, {});
+              next();
             })
             // on error, like parse error or 404
             .error(function (error) {
