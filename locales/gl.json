@@ -19,7 +19,7 @@
   },
   "avCommon": {
     "cancel": "Cancel",
-    "poweredBy": "Funciona amb <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>",
+    "poweredBy": "Funciona con <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>",
     "shareLink": "Comparte en Twitter que xa votaches nas primarias de En Marea",
     "votingSystem": "Voting System",
     "votings": {"plurality-at-large": "Plurality at large", "borda-nauru": "Nauru's Borda Count or Borda Dowdall (1/n)", "borda": "Borda Count (traditional)", "pairwise-beta": "Pairwise (beta-distribution)"}
@@ -47,10 +47,10 @@
     "startVoting": "Comezar a votar",
     "continueButton": "Continuar",
     "stepsToVote": "Seguirás estes pasos ao emitir o teu voto:",
-    "selectOptionsTitle": "1. Selecciona as túas candidaturas",
+    "selectOptionsTitle": "1. Selecciona unha lista",
     "selectOptionsText": "Responde ás preguntas da votación que se presentan unha a unha. Configurarás así­ as preferencias da túa papeleta.",
     "reviewOptionsTitle": "2. Revisa a túa papeleta",
-    "reviewOptionsText": "Unha vez que tes elixido as túas candidaturas, procederemos a cifralas e obterás un localizador. Mostraremosche o contido da túa papeleta para que podas revisala.",
+    "reviewOptionsText": "Unha vez que tes elixido unha das listas, procederemos a cifrala e obterás un localizador. Mostraremosche o contido da túa papeleta para que podas revisala.",
     "emitBallotTitle": "3. Enví­a o teu voto",
     "emitBallotText": "Podes enviar o teu voto á urna electrónica para seren rexistrado. Alternativamente, podes auditar que o teu voto fora corretamente cifrado.",
 
@@ -175,9 +175,9 @@
     },
 
     "confirmNullVote": {
-      "header": "Voto en blanco",
-      "body": "No has seleccionado ninguna opción en alguna pregunta, lo que equivale a votar en blanco.",
-      "confirm": "Sí, quiero votar en blanco cuando no seleciono ninguna opción"
+      "header": "Voto en branco",
+      "body": "Non seleccionaches ningunha opción, o que equivale a votar en branco.",
+      "confirm": "Si, quero votar en branco cando non selecciono ningunha opción"
     },
 
     "busy": {
