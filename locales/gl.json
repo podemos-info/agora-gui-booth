@@ -137,12 +137,12 @@
 
     "filterOptionsPlaceholder2": "Buscar nome ou lista",
     "candidatesTitle": "Candidaturas",
-    "helpTextViewSingleCandidates": "Clic en Ver para seleccionar candidatos individuais",
+    "helpTextViewSingleCandidates": "Clic en Ver para ver candidatos individuais",
     "helpTextViewCell": "Clic nunha cela para seleccionala completa",
     "randomizeColumn": "Ordenar aleatoriomente",
     "firstCandidateOfMany": "__name__ e outros",
     "numCandidatesSelected": "(__selected__ de __total__ seleccionados)",
-    "cannotSelectAll": "Para seleccionar todos eses candidatos tes que deseleccionar algúns primeiro",
+    "cannotSelectAll": "Para seleccionar esta lista tes que deseleccionar a outra lista primeiro",
     "totalsQuestionColumn": "(__selected__ de __count__ seleccionados)",
 
     "castOrCancelTitle": "Enviar o voto",
