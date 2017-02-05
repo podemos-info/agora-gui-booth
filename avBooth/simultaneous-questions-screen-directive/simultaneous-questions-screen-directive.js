@@ -39,12 +39,17 @@ angular.module('avBooth')
       var simultaneousQuestionsLayout = "simultaneous-questions";
       var link = function(scope, element, attrs)
       {
+        // get the name of our question group. A question group allows to know
+        // what questions shold be shown together in a pcandidates layout, where
+        // questions are shown as columns and candidate groups as rows
+        var group = scope.stateData.question.extra_options.group;
+
         // filter the list of questions to get the list of questions of type
         // "simultaneous-questions"
         var groupQuestions = scope.groupQuestions = _.filter(
           scope.election.questions,
           function (q) {
-            return q.layout === simultaneousQuestionsLayout;
+            return q.layout === simultaneousQuestionsLayout && q.extra_options.group === group;
           });
 
         var lastGroupQuestionArrayIndex = groupQuestions[groupQuestions.length-1];
@@ -57,6 +62,19 @@ angular.module('avBooth')
           scope.election.questions.length === lastGroupQuestionIndex + 1);
         scope.stateData.questionNum = lastGroupQuestionIndex;
 
+        // from each question of our group, get the extra_data, and then fusion
+        // all the extra_datas of our question group into one
+        var groupExtraData = _.extend.apply(_,
+          _.union(
+            [{}],
+            _.map(groupQuestions, function (q) { return q.extra_options; })));
+
+        // set next button text by default if it has not been specified
+        if (!!groupExtraData.next_button && !scope.stateData.isLastQuestion) {
+          scope.nextButtonText = groupExtraData.next_button;
+        } else {
+          scope.nextButtonText = $i18next('avBooth.continueButton');
+        }
         // FIXME: Why this is needed?
         scope.organization = ConfigService.organization;
 
@@ -128,10 +146,10 @@ angular.module('avBooth')
             }).length;
         };
 
-        // questionNext calls to scope.next() if user selected enough options.
+        // showNext calls to scope.next() if user selected enough options.
         // Shows a warning to confirm blank vote in any of the questions before
         // proceeding.
-        scope.questionNext = function()
+        scope.showNext = function()
         {
           var hasAnyBlankVote = _.reduce(
             groupQuestions,
