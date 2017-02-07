@@ -34,7 +34,8 @@
   <div class="navbar-unfixed-top text-center">
     <div class="container">
       <div class="hidden unfixed-top-height"></div>
-      <h1>{{election.title}}</h1>
+      <h1 ng-if="groupQuestions.length > 1">{{election.title}}</h1>
+      <h1 ng-if="groupQuestions.length === 1">{{groupQuestions[0].title}}</h1>
       <p
         ng-if="election.description"
         class="description"
@@ -48,9 +49,15 @@
   <div class="container">
     <div class="row options-row" ng-repeat="question in groupQuestions">
       <div class="col-xs-12">
-        <h3>{{question.title}}</h3>
+        <h3 ng-if="groupQuestions.length > 1">
+          {{question.title}}
+        </h3>
+
+        <h3 ng-if="question.description && groupQuestions.length === 1">
+          {{question.description | addTargetBlank}}
+        </h3>
         <p
-          ng-if="question.description"
+          ng-if="question.description && groupQuestions.length > 1"
           ng-bind-html="question.description | addTargetBlank">
         </p>
       </div>
