@@ -32,9 +32,9 @@
         "contact": "contacto"
     },
     "confirmAuditBallot": {
-      "header": "¿Realmente quieres auditar tu voto?",
-      "body": "La auditoría del voto lo invalidará y tendrás que iniciar el proceso de votación de nuevo si deseas emitir tu voto. El proceso de auditoría del voto permite verificar que está codificada correctamente. Hacer este proceso requiere que unos conocimientos técnicos importantes, por lo que no se recomienda si no sabes lo que estás haciendo. <br/> <br/><strong>Si lo que desea es emitir su voto, en <u>Cancelar</u> para volver a la pantalla de revisión de votación.</strong>",
-      "confirm": "Sí, quiero INVALIDAR mi voto para AUDITARLO"
+      "header": "¿Quieres auditar tu voto?",
+      "body": "La auditoría del voto supone que tendrás que volver a iniciar el proceso de votación. Con la auditoria puedes verificar con métodos técnicos que el voto se ha codificado correctamente. Para realizar esta comprobación necesitas tener ciertos conocimientos técnicos informáticos. <br/> <br/><strong>Si deseas continuar con la auditoría, pulsa 'Sí, quiero auditar mi voto'. Si deseas volver a la pantalla de revisión de votación, pulsa 'Cancelar'.</strong>",
+      "confirm": "Sí, quiero auditar mi voto"
     },
     "showSelectedOptionPoints": "(__points__ puntos)",
     "warnBallotParity": {
@@ -105,8 +105,8 @@
     "selectedOptionFollow": "La opción que seleccionaste es:",
 
     "errorElectionUrl": "La dirección introducida tiene un formato erróneo",
-    "reviewYourBallotTitle": "Falta enviar tu voto: revísalo primero",
-    "reviewYourBallotText": "Antes de emitir tu voto, por favor revisa su contenido",
+    "reviewYourBallotTitle": "Antes de enviar tu voto, revísalo",
+    "reviewYourBallotText": "",
     "castTheBallot": "Enviar el voto",
     "changeAnswerToQuestion": "cambiar",
     "emptyAnswer": "<voto en blanco>",
@@ -154,12 +154,12 @@
 
     "auditBallotTitle": "Auditar el voto",
     "auditBallotSubtitle": "",
-    "auditBallotText": "<p>El localizador de tu voto es: <code>__ballotHash__</code></p><p><strong>La auditoría del voto requiere ciertos conocimientos técnicos. Si no los tienes, puedes simplemente comenzar de nuevo el proceso de voto haciendo clic abajo</strong>.</p><p>Para verificar tu voto, necesitas:</p><ol><li>Copiar y guardar en un fichero el voto (clic para seleccionar):<br/><div class=\"code\" ng-click=\"selectDiv($event)\">__auditableBallot__</div></li><li>Seguir los pasos de <a href=\"https://github.com/agoravoting/agora-airgap/blob/master/README.md\" target=\"_blank\">este tutorial para verificar que el voto fue cifrado correctamente</a>.</li></ol><p>Por razones de seguridad, al auditar el voto, el ha de ser desechado. Para continuar el proceso de voto, debes comenzar el proceso de nuevo.</p>",
+    "auditBallotText": "<p>El localizador de tu voto es: <code>__ballotHash__</code></p><p><strong>La auditoría del voto requiere ciertos conocimientos técnicos informáticos. Si no los tienes, puedes comenzar de nuevo el proceso de voto pulsando el botón 'Comenzar el proceso de voto', abajo</strong>.</p><p>Para verificar tu voto, necesitas:</p><ol><li>Copiar y guardar en un fichero el voto (clic para seleccionar):<br/><div class=\"code\" ng-click=\"selectDiv($event)\">__auditableBallot__</div></li><li>Seguir los pasos de <u><a href=\"https://github.com/agoravoting/agora-airgap/blob/master/README.md\" target=\"_blank\">este tutorial para verificar que el voto fue cifrado correctamente</a></u>.</li></ol><p>Por razones de seguridad, al auditar el voto, el proceso de voto que iniciaste debe finalizar. Para continuar votando debes comenzar el proceso de nuevo.</p>",
     "auditStartAgain": "Comenzar el proceso de voto de nuevo",
 
 
     "thisisADemoNotification": "<span class=\"glyphicon glyphicon-info-sign\" aria-hidden=\"true\"></span> <strong>¡Atención!</strong> Cabina de votación de prueba, los votos emitidos aquí no cuentan.",
-    "successBallotHash": "¡Enhorabuena! Has emitido tu voto con <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>. El localizador de tu voto es:<br/><br/></h3><p> <strong>__ballotHash__</strong><br/><br/>Puedes usar tu localizador para <a href=\"__ballotLocatorUrl__\" target=\"_blank\">verificar que tu voto ha quedado registrado</a>.",
+    "successBallotHash": "¡Enhorabuena! Has emitido tu voto con <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>. El localizador de tu voto es:<br/><br/></h3><p> <strong>__ballotHash__</strong><br/><br/>Puedes usar tu localizador para <u><a href=\"__ballotLocatorUrl__\" target=\"_blank\">verificar que tu voto ha quedado registrado</a></u>.",
     "relatedLinksText": "Para más información sobre la votación:",
 
     "circleOptionExternalLink": "Ver detalles",
@@ -193,11 +193,11 @@
     },
 
     "busy": {
-      "title": "Por favor espera a la siguiente pantalla para emitir tu voto.",
+      "title": "Por favor, espera a la siguiente pantalla para emitir tu voto.",
       "encryptedTitle": "Cifrando tu voto",
       "encryptedDescription": "Ahora se está cifrando el voto para mantenerlo en secreto",
       "castTitle": "Emisión del voto",
-      "castDescription": "En la siguiente pantallá podrás emitir tu voto de forma segura",
+      "castDescription": "En la siguiente pantalla podrás emitir tu voto de forma segura",
       "anonymizedTitle": "Anonimización",
       "anonymizedDescription": "En el recuento anonimizaremos los votos antes de descifrarlos"
     }
