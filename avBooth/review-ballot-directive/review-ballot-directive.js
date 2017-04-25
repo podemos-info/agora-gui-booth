@@ -62,6 +62,10 @@ angular.module('avBooth')
           "desborda": function()
           {
             return 80 - answer.selected;
+          },
+          "stv-hare-clark": function()
+          {
+            return 1;
           }
         }[question.tally_type]();
       };

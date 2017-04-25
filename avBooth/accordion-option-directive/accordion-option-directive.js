@@ -110,6 +110,10 @@ angular.module('avBooth')
           "desborda": function()
           {
             return 80 - scope.option.selected;
+          },
+          "stv-hare-clark": function()
+          {
+            return 1;
           }
         }[scope.question.tally_type]();
       };
