@@ -18,7 +18,7 @@
     "name": "Agora Voting"
   },
   "avCommon": {
-    "cancel": "Cancel",
+    "cancel": "Cancelar",
     "poweredBy": "Funciona con <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>",
     "shareLink": "Comparte en Twitter que xa votaches nas primarias de En Marea",
     "votingSystem": "Voting System",
@@ -44,7 +44,7 @@
     },
     "thisisATest": "<span class=\"glyphicon glyphicon-info-sign\" aria-hidden=\"true\"></span> <strong>Warning!</strong> This is a TEST election",
     "loadingElectionTitle": "Cargando votación, un momento por favor..",
-    "stepNumber": "paso _num__ de __total__",
+    "stepNumber": "paso __num__ de __total__",
     "stepAndQuestionNumber": "paso __num__ de __total__, pregunta __qnum__ de __qtotal__",
     "startVoting": "Empezar a votar",
     "continueButton": "Continuar",
@@ -169,9 +169,9 @@
     "openOptionLink": "Abrir ligazón en nova pestana",
 
     "confirmNullVote": {
-      "header": "Voto en blanco",
-      "body": "No has seleccionado ninguna opción en alguna pregunta, lo que equivale a votar en blanco.",
-      "confirm": "Sí, quiero votar en blanco cuando no seleciono ninguna opción"
+      "header": "Voto en branco",
+      "body": "Non seleccionaches ningunha opción nalgunha das preguntas o que equivale a votar en branco.",
+      "confirm": "Si, quero votar en branco cando non escollo ningunha opción"
     },
 
     "busy": {
