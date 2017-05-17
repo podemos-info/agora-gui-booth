@@ -19,7 +19,7 @@
   },
   "avCommon": {
     "cancel": "Cancel",
-    "poweredBy": "Funciona amb <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>",
+    "poweredBy": "Funciona con <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>",
     "shareLink": "Comparte en Twitter que xa votaches nas primarias de En Marea",
     "votingSystem": "Voting System",
     "votings": {"plurality-at-large": "Plurality at large", "borda-nauru": "Nauru's Borda Count or Borda Dowdall (1/n)", "borda": "Borda Count (traditional)", "pairwise-beta": "Pairwise (beta-distribution)", "desborda": "DesBorda"}
@@ -49,12 +49,12 @@
     "startVoting": "Empezar a votar",
     "continueButton": "Continuar",
     "stepsToVote": "Seguirás estes pasos ao emitir o teu voto:",
-    "selectOptionsTitle": "1. Selecciona as túas candidaturas",
+    "selectOptionsTitle": "1. Selecciona as túas respostas",
     "selectOptionsText": "Responde ás preguntas da votación que se presentan unha a unha. Configurarás así­ as preferencias da túa papeleta.",
     "reviewOptionsTitle": "2. Revisa a túa papeleta",
-    "reviewOptionsText": "Unha vez que tes elixido as túas candidaturas, procederemos a cifralas e obterás un localizador. Mostraremosche o contido da túa papeleta para que podas revisala.",
+    "reviewOptionsText": "Unha vez que tes elixido as túas respostas, procederemos a cifralas e obterás un localizador. Amosarémosche o contido da túa papeleta para que podas revisala.",
     "emitBallotTitle": "3. Enví­a o teu voto",
-    "emitBallotText": "Podes enviar o teu voto á urna electrónica para seren rexistrado. Alternativamente, podes auditar que o teu voto fora corretamente cifrado.",
+    "emitBallotText": "Enviarás o teu voto á urna electrónica para que sexa rexistrado. Alternativamente, podes auditar que o teu voto fora corretamente cifrado.",
 
     "errorTitle": "Oops. Ocorreu algo inesperado",
     "errorHtml": "<p>Ocorreu o seguinte problema (identificador __errorId__): </p><p>__error__</p><p>No caso de que creas que debes contactar connosco, podes facelo enviándonos un email a <a href=\"mailto:__email__\" target=\"_blank\">__email__</a>.</p>",
@@ -109,7 +109,7 @@
     "errorElectionUrl": "O enderezo introducido ten un formato erróneo",
     "reviewYourBallotTitle": "Falta enviar a papeleta: revísaa primeiro",
     "reviewYourBallotText": "Antes de emitir o teu voto, por favor revisa o contido da túa papeleta",
-    "castTheBallot": "Enviar el voto",
+    "castTheBallot": "Enviar o voto",
     "changeAnswerToQuestion": "cambiar",
     "emptyAnswer": "<voto en branco>",
 
@@ -119,7 +119,7 @@
     "sendingBallot": "Enviando a papeleta cifrada ao servidor, por favor espera (__percentage__% completado)",
 
     "successTitle": "Voto emitido con Éxito",
-    "successSubheader": "Parabén, emitiches correctamente o teu voto e queda custodiado pola urna electrónica.",
+    "successSubheader": "Parabéns, emitiches correctamente o teu voto e queda custodiado pola urna electrónica.",
 
     "completePacksTitle": "Packs completos",
     "listOfDraftDocuments": "Documentos (clic para ver)",
@@ -161,8 +161,8 @@
 
 
     "thisisADemoNotification": "<span class=\"glyphicon glyphicon-info-sign\" aria-hidden=\"true\"></span> <strong>¡Atención!</strong> Cabina de votación de proba, os votos emitidos aquí non contan.",
-    "successBallotHash": "¡Parabén! Emitiches o teu voto con <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>. O localizador do teu voto é:<br/><br/></h3><p> <strong>__ballotHash__</strong><br/><br/>Podes usar o teu localizador para <a href=\"__ballotLocatorUrl__\" target=\"_blank\">verificar que o teu voto quedou rexistrado</a>.",
-    "relatedLinksText": "Para máis información sobre a votación:",
+    "successBallotHash": "¡Parabéns! Emitiches o teu voto con <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>. O localizador do teu voto é:<br/><br/></h3><p> <strong>__ballotHash__</strong><br/><br/>Podes usar o teu localizador para <a href=\"__ballotLocatorUrl__\" target=\"_blank\">verificar que o teu voto quedou rexistrado</a>.",
+    "relatedLinksText": "Podes atopar máis información sobre a votación nas seguintes ligazóns:",
 
     "circleOptionExternalLink": "Ver detalles",
     "voteInBlank": "Votar en Branco",
@@ -177,11 +177,11 @@
     "busy": {
       "title": "O seu voto será...",
       "encryptedTitle": "cifrado",
-      "encryptedDescription": "de xeito que ninguén pode saber que as opcións que escolla",
+      "encryptedDescription": "de xeito que ninguén poida saber que opcións escolleu anonimizado",
       "castTitle": "emitido",
       "castDescription": "usando unha canle segura e comprobar a súa identidade",
       "anonymizedTitle": "anonimizado",
-      "anonymizedDescription": "para que a conta non revela o significado do seu voto"
+      "anonymizedDescription": "para que o reconto non revele o significado do seu voto"
     },
 
     "tooFewAnswers": {
@@ -218,9 +218,9 @@
       "errorNotFoundText": "Erro cargando a información.",
       "errorLoadingText": "Erro cargando a votación. Poida que esta votación non exista ou non se publicara aínda.",
       "faqsLink": "Preguntas frecuentes",
-      "authoritiesLink": "Autoridades",
-      "overviewLink": "Esquema xeral",
-      "technicalOverviewLink": "Análise técnica",
+      "authoritiesLink": "Lista de Autoridades",
+      "overviewLink": "Esquera Xeral",
+      "technicalOverviewLink": "Descrición técnica",
       "demoVotingBoothLink": "Demo cabina de votación",
       "voteNowLink": "Vota agora",
       "answers": "__count__ candidaturas",
