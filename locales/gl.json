@@ -19,7 +19,7 @@
   },
   "avCommon": {
     "cancel": "Cancel",
-    "poweredBy": "Funciona amb <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>",
+    "poweredBy": "Funciona con <strong><a href=\"__url__\" target=\"_blank\">__name__</a></strong>",
     "shareLink": "Comparte en Twitter que xa votaches nas primarias de En Marea",
     "votingSystem": "Voting System",
     "votings": {"plurality-at-large": "Plurality at large", "borda-nauru": "Nauru's Borda Count or Borda Dowdall (1/n)", "borda": "Borda Count (traditional)", "pairwise-beta": "Pairwise (beta-distribution)", "desborda3": "DesBorda3", "desborda2": "DesBorda2", "desborda": "DesBorda"}
@@ -87,7 +87,7 @@
     "numSelectedOptionsSmall_plural": "__count__ opcións seleccionadas",
     "selectMoreOpts": "Debes seleccionar polo menos __min__ opcións.",
     "selectMoreOpts_plural": "Debes seleccionar polo menos __min__ opcións.",
-    "maxSelectedLimitReached_singular": "Recuerda que sólo puedes elegir 1 opción.",
+    "maxSelectedLimitReached_singular": "Lembre que só podes escoller unha opción.",
     "maxSelectedLimitReached": "Non podes seleccionar máis opcións (máximo __max__). Para seleccionar unha opción, deselecciona outra primeiro.",
     "maxSelectedLimitTagReached": "No puedes seleccionar más opcións de tipo __tagName__ (máximo __max__). Para seleccionar una, deselecciona otra primero.",
     "maxSelectedLimitNoTagReached": "No puedes seleccionar más opcións que no sean __tagName__ (máximo __max__). Para seleccionar una, deselecciona otra primero.",
